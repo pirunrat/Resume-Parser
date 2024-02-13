@@ -1,0 +1,18 @@
+FROM python:3.7
+
+
+WORKDIR /backend
+
+RUN pip3 install Flask
+RUN pip3 install flask-cors
+RUN pip3 install numpy
+RUN pip3 install scikit-learn
+RUN pip3 install --no-cache-dir PyPDF2 spacy python-docx
+RUN python -m spacy download en_core_web_md
+
+
+
+
+COPY ./backend /backend/
+
+CMD tail -f /dev/null
