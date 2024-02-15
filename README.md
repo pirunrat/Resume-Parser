@@ -3,3 +3,9 @@ In this project, spacy is the major library for analyzing the percentage of matc
 
 To run this app, you can download or clone my github project to your local machine and then right click on the docker-compose.yaml file, this'll bring up the app as following:
 
+![Alt text](./firstpage.jpg)
+
+
+from this, you can upload your resume, then the application'll assess the matching score as the following:
+
+![Alt text](./result.jpg)
